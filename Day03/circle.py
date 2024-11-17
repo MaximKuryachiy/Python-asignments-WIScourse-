@@ -1,8 +1,10 @@
+import argparse
+parser = argparse.ArgumentParser()
+parser.add_argument("--radius", help="the radius of a given circle", type = int, required = True)
+args = parser.parse_args()
+
+radius = args.radius
+
 pi = 3.1415926
-radius = 5
-Area = pi*radius**2
-Circumference = 2*pi*radius
-
-
-print("The area of the circle is:", Area)
-print("The circumference is:", Circumference)
+area = pi*radius**2
+print(area)
