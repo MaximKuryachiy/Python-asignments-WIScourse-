@@ -1,1 +1,0 @@
-def seq_anal():
