@@ -1,0 +1,2 @@
+This program is using argparse to receive commands, type -help to see how to use.
+You may choose wether you want to find the longest duplicate in the FASTA sequence or count the number of methionines in the sequence.
